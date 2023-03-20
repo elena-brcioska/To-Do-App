@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+<h1>To Do App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h2>Description</h2>
+A ToDo List app, that allows users to create tasks, and keep track of them on daily basis. Users can pick a date for which they are adding the task, and plan their day. Users can also edit tasks, delete tasks and mark tasks as completed, also switch between different days to see what tasks they have for the date. 
 
-In the project directory, you can run:
 
-### `npm start`
+<h2>Languages and Utilities Used</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- <b>React</b>
+- <b>JavaScript</b> 
+- <b>Styled Components</b>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Project Functionalities</h2>
 
-### `npm test`
+- <b>Add New Task</b>
+- <b>Edit existing task</b>
+- <b>Mark task as completed</b>
+- <b>Delete task</b>
+- <b>Change date</b>
+- <b>Add tasks for previous and future dates</b>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Website walk-through:</h2>
 
-### `npm run build`
+<p align="center">
+The ToDo List Ui. By default the list shows the tasks for today's date. The user can add a new task, by specifying a title, time and taks description, and clicking the Add button. The tasks will be sorted top to bottom by the entered time: <br/>
+<img src="https://i.ibb.co/qWsStpM/todo01.png" height="80%" width="80%" alt="ToDo List"/>
+<br />
+<br />
+You can pick a date on the calendar and add tasks for the selected date:  <br/>
+<img src="https://i.ibb.co/tpHVBvc/todo02.png" width="80%" alt="ToDo List"/>
+<br />
+<br />
+The user can pick a task or a number of tasks, and mark them as completed. The completed tasks will go to the bottom of the list: <br/>
+<img src="https://i.ibb.co/Yb79X6V/todo03.png" height="80%" width="80%" alt="ToDo List"/>
+<br />
+<br />
+The user can also pick completed or uncompleted tasks, and delete them:  <br/>
+<img src="https://i.ibb.co/1TctSVD/todo04.png" height="80%" width="80%" alt="ToDo List"/>
+<br />
+<br />
+If the user tries to Add an empty task by mistake, the app will alerth them:  <br/>
+<img src="https://i.ibb.co/f24s0sM/todo05.png" height="80%" width="80%" alt="ToDo List"/>
+<br />
+<br />
+</p>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
